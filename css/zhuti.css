@@ -1,0 +1,129 @@
+body {
+    background-color: #f0ead2;
+}
+
+#header1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url(../img/3.png);
+    background-size: 100% 100%;
+    padding-top: 1.5rem;
+    z-index: 150;
+}
+
+.head1 {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.head1 svg {
+    font-size: 1rem;
+    margin: .3rem .3rem;
+    display: block;
+}
+
+.head1 p {
+    opacity: 0;
+}
+
+.shoucang {
+    display: flex;
+}
+
+.shoucang svg:nth-of-type(1) {
+    opacity: 0;
+}
+
+.headDota2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.headDota2>p {
+    margin: auto .7rem;
+    padding: .3rem;
+    text-align: center;
+    font-size: .7rem;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.headimg {
+    display: flex;
+    width: 40%;
+    margin: 1rem .7rem;
+}
+
+.headimg img {
+    width: 100%;
+}
+
+.headimg p {
+    width: 100%;
+    font-size: 1rem;
+    color: #fff;
+    margin: .7rem 0;
+    text-align: center;
+}
+#nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #f0ead2;
+    border-bottom: 1px solid #000;
+    z-index: 150;
+}
+
+#nav p {
+    font-size: .7rem;
+}
+
+#nav .bantou {
+    display: flex;
+}
+
+.bantou svg {
+    font-size: 1rem;
+    margin: 0 .3rem;
+    display: block;
+}
+
+.Dotaul {
+    margin: .3rem;
+}
+
+.Dotaul>li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+
+}
+
+.Dotaul>li h2 {
+    width: 100%;
+    padding: .3rem .3rem;
+    font-size: 1rem;
+}
+
+.Dotaul>li .text {
+    display: flex;
+    width: 100%;
+    margin-top: .5rem;
+    justify-content: space-between;
+}
+
+.text p {
+    margin: .3rem;
+    font-size: .8rem;
+}
+
+.text p:nth-of-type(1) {
+    flex-grow: 1;
+}

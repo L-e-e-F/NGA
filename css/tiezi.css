@@ -1,0 +1,154 @@
+body {
+    padding-top: 10%;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: .3rem 0;
+    background-color: #f0ead2;
+    justify-content: space-between;
+}
+
+#header svg {
+    font-size: 1rem;
+    margin: .3rem .3rem;
+    display: block;
+}
+
+#header .head1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.head1 h2 {
+    font-size: 1rem;
+}
+
+#header .head2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head2 p {
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: auto .3rem;
+    padding: .1rem .5rem;
+    font-size: .5rem;
+}
+
+.zhuti {
+    padding: .5rem;
+    padding-left: 1rem;
+}
+
+.zhutiul li {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.img {
+    width: 20%;
+    margin: .3rem .5rem;
+
+}
+
+.img img {
+    width: 85%;
+    border-radius: 25px;
+}
+
+.lihead {
+    display: flex;
+    border-top: 1px solid #000;
+    padding: .7rem .5rem;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name p {
+    font-size: 1rem;
+}
+
+.qita {
+    display: flex;
+    width: 100%;
+}
+
+.qita p {
+    margin-right: .3rem;
+    font-size: .7rem;
+}
+
+.limain {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem;
+    border-top: 1px solid #000;
+}
+
+.limain>p {
+    width: 100%;
+}
+
+.time {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.time>p {
+    margin: .1rem;
+    font-size: .7rem;
+    color: #d7d1b9;
+}
+
+.lifoot {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid #000;
+}
+
+.lifoot svg {
+    font-size: 1.5rem;
+    margin: .3rem .5rem;
+    display: block;
+}
+
+.left {
+    display: flex;
+}
+
+.left svg:nth-of-type(3) {
+    margin-left: 2rem;
+}
+
+.right {
+    display: flex;
+}
+
+#loading {
+    background-color: red;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    display: none;
+}

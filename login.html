@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="cancel">
+            <a href="./index.html">
+            <p>取消</p>
+            </a>
+        </div>
+        <h2>登录</h2>
+        <div class="refresh">
+            <p>刷新</p>
+        </div>
+    </header>
+
+    <form action="./index.html" method="Get" id="fm" name="fm" onsubmit="return checkForm()">
+        <div class="img">
+            <img src="./img/drawer_info_bg.png">
+            <p class="error">用户名应为18001010821</p>
+            <p class="error">密码应为123456</p>
+        </div>
+        <div class="shouji">
+            <p>手机号</p>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-shouji"></use>
+            </svg>
+        </div>
+        <ul>
+            <li>
+                <input onchange="checkUser()" type="text" class="input" name="user" id="user">
+            </li>
+            <li>
+                <input onchange="checkPw()" type="password" class="input" name="pwd" id="pwd">
+            </li>
+            <li>
+                <div class="text">
+                    <a href="#">注册账号</a>
+                    <a href="#">忘记密码</a>
+                </div>
+            </li>
+            <li>
+                <input type="submit" class="submit" value="登录">
+            </li>
+        </ul>
+        <div class="foot">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-QQ"></use>
+            </svg>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-uniE"></use>
+            </svg>
+        </div>
+        <script src="./js/iconfont.js"></script>
+        <script src="./js/login.js"></script>
+</body>
+
+</html>
